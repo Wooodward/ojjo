@@ -105,7 +105,7 @@ header .content a {
 header .content a:hover {
   color: #333;
   border-color: #d6d6d6;
-  background: #fff;
+  background: #d6d6d6;
 }
 
 header .content .partners {
@@ -342,4 +342,93 @@ header .content .partners img:last-child {
   background: rgba(51, 51, 51, 1);
   color: #fff;
   border: 1px solid #fff;
+}
+
+/*Блог*/
+.blog .blog-container {
+  margin-top: 100px;
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #333;
+}
+
+.blog .pages-group{
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog .pages-group:first-child{
+  margin-left: 0;
+}
+
+.blog .pages-group:last-child{
+  margin-right: 0;
+}
+
+.blog .pages-group .page{
+  width: 350px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0 15px;
+}
+
+.wife{
+  background: url('../img/wife.png') no-repeat center center/cover;
+}
+
+.husband-zaponki{
+  background: url('../img/husband.png') no-repeat center center/cover;
+}
+
+.wedding-rings{
+  background: url('../img/wedding.png') no-repeat center center/cover;
+}
+.blog .pages-group .page a{
+width: 100%;
+height: 100%;
+text-decoration: none;
+font-family: 'Gilroy-Light';
+font-size: 21px;
+line-height: 140%;
+color: rgba(255, 255, 255, 1);
+padding-top: 251px;
+position: relative;
+}
+
+.blog .pages-group .page a:hover:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  background: #333;
+  top: 0;
+  left: 0;
+}
+
+.blog .btn{
+  background: rgba(51, 51, 51, 1);
+  margin-top: 50px;
+  color: #fff;
+  font-family: 'Gilroy-Medium', sans-serif;
+  max-width: 261px;
+  max-height: 51px;
+  padding: 15px 35px 15px 35px;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.blog .btn:hover{
+  color: #333;
+  border-color: #d6d6d6;
+  background: #f4f4f4;
 }
