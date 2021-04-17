@@ -105,7 +105,7 @@ header .content a {
 header .content a:hover {
   color: #333;
   border-color: #d6d6d6;
-  background: #d6d6d6;
+  background: #f4f4f4;
 }
 
 header .content .partners {
@@ -235,11 +235,11 @@ header .content .partners img:last-child {
 }
 
 .rings {
-  background: url('../img/rings.png') no-repeat center center/cover;
+  background: url('../img/sergi.png') no-repeat center center/cover;
 }
 
 .sergi {
-  background: url('../img/sergi.png') no-repeat center center/cover;
+  background: url('../img/rings.png') no-repeat center center/cover;
 }
 
 .podveski {
@@ -528,4 +528,116 @@ z-index: 2;
 
 .row:last-child .picture:last-child a{
     background: url('../img/play.png') no-repeat center center;
+}
+
+/*Подписка*/
+.subscription{
+  background: url('../img/Rectangle 6.png') no-repeat center center/cover;
+  width: 100%;
+  height: 541px;
+  color: #fff;
+  font-weight: 200;
+}
+
+.subscription-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.subscription-container h3{
+  font-family: 'Gilroy-Light';
+  font-size: 21px;
+  line-height: 140%;
+}
+
+.subscription-container h2{
+  margin-top: 15px;
+  font-family: 'Noto Serif', serif;
+  font-size: 30px;
+  line-height: 41px;
+  font-weight: 300;
+}
+
+.subscription-form{
+  margin-top: 63px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscription-form ul{
+  list-style: url('../img/subscribe__icon.png');
+  text-align: left;
+  font-family: 'Gilroy-Light';
+font-size: 18px;
+line-height: 140%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items:center;
+height: 105px;
+margin-right: 40px;
+}
+
+.subscription-form ul li{
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.sub-form{
+  margin-left: 40px;;
+  width: 448px;
+  height: 113px;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-form form{
+  background: #fff;
+  width: 418px;
+  height: 85px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sub-form form .input{
+  width: 200px;
+  height: 45px;
+  font-family: 'Gilroy-Light';
+  color: #333;
+  font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.1em;
+padding: 15px 20px;
+}
+
+.sub-form form .input::placeholder{
+  font-family: 'Gilroy-Light';
+  rgba(51, 51, 51, 0.5);
+}
+
+.sub-form form .subscribe{
+  background: rgba(51, 51, 51, 1);
+  color: #fff;
+  font-family: 'Gilroy-Medium', sans-serif;
+  width: 159px;
+  height: 45px;
+  padding: 14px 35px 14px 35px;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.sub-form form .subscribe:hover{
+  color: #333;
+  border-color: #d6d6d6;
+  background: #f4f4f4;
 }
